@@ -15,9 +15,8 @@ function golfScore(par, strokes) {
     return names[5];
   } else if (strokes >= par + 3) {
     return names[6];
+  } else {
+    return "Not a valid score";
   }
-
-
-  return "Change Me";
 }
 
