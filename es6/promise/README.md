@@ -4,7 +4,7 @@ This is a simple example of how to use Promises in JavaScript to handle asynchro
 
 ## Code Overview
 
-In this code, we have a Promise called `makeServerRequest` that represents a server request operation. It simulates a response from the server, which can either be successful or unsuccessful.
+In this code, a Promise called `makeServerRequest` that represents a server request operation. It simulates a response from the server, which can either be successful or unsuccessful.
 
 - If `responseFromServer` is `true`, the Promise is resolved with the message "We got the data."
 - If `responseFromServer` is `false`, the Promise is rejected with the message "Data not received."
