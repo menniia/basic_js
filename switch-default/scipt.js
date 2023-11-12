@@ -12,10 +12,7 @@ function switchOfStuff(val) {
         break;
       default: 
         answer = "stuff";
-        break;
     }
   
     return answer;
   }
-  
-  switchOfStuff(1);
